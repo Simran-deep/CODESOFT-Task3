@@ -1,3 +1,4 @@
+// TASK NO. 3 ATM INTERFACE
 import java.util.Scanner;
 //create ATM Class
 class ATM {
@@ -7,7 +8,7 @@ class ATM {
         this.account = account;
         this.scanner = new Scanner(System.in);
     }
-//Menu for selection the choice    
+//Menu for selection the choice  
     public void showMenu() {
         System.out.println("1. Check Balance");
         System.out.println("2. Deposit");
@@ -82,7 +83,6 @@ class BankAccount {
         }
     }
 }
-
 public class Task3 {
     public static void main(String[] args) {
         System.out.println("ATM Machine Interface");
